@@ -1,0 +1,5 @@
+radius=eval(input("Enter the radius of hemisphere: "))
+import math
+pi=math.pi
+volume=2/3*pi*radius**3
+print(f"volume of hemisphere is {volume}")
